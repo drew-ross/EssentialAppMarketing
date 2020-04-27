@@ -6,12 +6,40 @@ body {
 .main-container {
     width: 80%;
     margin: 0 auto;
+    
+    .content {
+        margin-bottom: 4rem;
+    }
 
-    .product-image-container {
-        background-image: url(/img/app-image-standin.jpg);
-        background-size: cover;
-        background-position: center;
-        border-radius: 10px;
+    .main-content {
+        .flex(row, space-evenly, flex-start);
+
+        .content {
+            margin-bottom: 4rem;
+        }    
+
+        @media @tablet-max-width {
+            .flex(column, space-evenly, center);
+        }
+        .content-container {
+            width: 45%;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            @media @tablet-max-width {
+                width: 100%;
+            }
+            
+        }
+
+        .product-image-container {
+            background-image: url(/img/app-image-standin.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            height: 50rem;
+            width: 50rem;
+            
+        }
     }
 }
 

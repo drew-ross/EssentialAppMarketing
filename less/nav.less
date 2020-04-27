@@ -6,12 +6,14 @@
 
     header {
         .flex(row, space-between, center);
-        
-        h1 {
-            margin-bottom: -2rem;
+        @media @tablet-max-width {
+            .flex(column, space-between, center);
         }
 
         nav {
+            @media @tablet-max-width {
+                margin-top: 4rem;
+            }
             width: 50rem;
             ul {
             .flex(row, space-evenly, center);
