@@ -8,18 +8,18 @@ html {
   font-size: 62.5%;
 }
 @font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
+}
+@font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v14/4iCs6KVjbNBYlgoKfw7z.ttf) format('truetype');
 }
 .header-container {
   width: 100%;
@@ -32,6 +32,9 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.header-container header h1 {
+  margin-bottom: -2rem;
 }
 .header-container header nav {
   width: 50rem;
@@ -57,8 +60,8 @@ html {
   transition-duration: 0.1s;
 }
 .primary-button:hover {
-  background: #73bb73;
-  border: 1px solid #73bb73;
+  background: #8bbb8b;
+  border: 1px solid #8bbb8b;
   color: white;
 }
 .secondary-button {
@@ -69,18 +72,18 @@ html {
   border: 1px solid #141414;
 }
 .secondary-button:hover {
-  background: #73bb73;
-  border: 1px solid #73bb73;
+  background: #8bbb8b;
+  border: 1px solid #8bbb8b;
   color: white;
 }
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 h2 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
 }
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   font-style: italic;
 }
 p,
@@ -101,11 +104,9 @@ a {
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Ubuntu', sans-serif;
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 .main-container {
   width: 80%;
