@@ -11,12 +11,26 @@
         }
 
         nav {
+            width: 50rem;
             @media @tablet-max-width {
                 margin-top: 4rem;
             }
-            width: 50rem;
+            @media @mobile-max-width {
+                margin-top: 0;
+            }
+            
             ul {
             .flex(row, space-evenly, center);
+            
+            @media @mobile-max-width {
+                .flex(column, space-evenly, center);
+                li {
+                    margin: 2rem 0;
+                    a {
+                        font-size: 4rem;
+                    }
+                }
+            }
             }
         }
     }

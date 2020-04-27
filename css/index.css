@@ -81,11 +81,30 @@ h3 {
     margin-top: 4rem;
   }
 }
+@media (max-width: 500px) {
+  .header-container header nav {
+    margin-top: 0;
+  }
+}
 .header-container header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+@media (max-width: 500px) {
+  .header-container header nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .header-container header nav ul li {
+    margin: 2rem 0;
+  }
+  .header-container header nav ul li a {
+    font-size: 4rem;
+  }
 }
 .link {
   padding: 9px;
@@ -125,6 +144,10 @@ body {
 .main-container {
   width: 80%;
   margin: 0 auto;
+}
+.main-container h2.content-title {
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .main-container .content {
   margin-bottom: 4rem;
@@ -181,4 +204,27 @@ body {
   background: #76ac76;
   border: 1px solid #76ac76;
   color: white;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.cards .team-card {
+  width: 20rem;
+  margin: 1rem;
+}
+.cards .team-card .team-photo {
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-image: url(/img/profile-icon.png);
+}
+.cards .team-card #tim-photo {
+  background-image: url(/img/photo-tim.png);
 }
