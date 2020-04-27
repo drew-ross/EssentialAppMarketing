@@ -1,13 +1,12 @@
 .header-container {
     width: 100%;
-    padding-top: 2rem;
+    padding: 4rem 0;
+    margin-bottom: 10rem;
+    border-bottom: 1px solid @color-font;
 
-    .container {
-        width: 50%;
-    }
     header {
         .flex(row, space-between, center);
-        border-bottom: 1px solid @color-font;
+        
 
         nav {
             width: 50rem;
@@ -16,4 +15,16 @@
             }
         }
     }
+}
+
+.link {
+    .link-display();
+}
+
+.primary-button {
+    .primary-button-display();
+}
+
+.secondary-button {
+    .secondary-button-display();
 }

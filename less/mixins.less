@@ -6,22 +6,37 @@
 }
 
 .primary-button-display() {
-
+    color: @color-font-contrast;
+    background: @color-primary;
+    padding: @button-padding;
+    border-radius: @button-radius;
+    border: 1px solid @color-primary;
+    transition-duration: .1s;
+    
     &:hover {
-
+        background: @color-highlight;
+        border: 1px solid @color-highlight;
+        color: @color-font-contrast;
     }
 }
 
 .secondary-button-display() {
+    color: @color-font;
+    background: none;
+    padding: @button-padding;
+    border-radius: @button-radius;
+    border: 1px solid @color-font;
 
     &:hover {
-        
+        background: @color-highlight;
+        border: 1px solid @color-highlight;
+        color: @color-font-contrast;
     }
 }
 
-.nav-display() {
-
+.link-display() {
+    padding: @button-padding;
     &:hover {
-
+        border-bottom: 1px solid @color-font;
     }
 }
