@@ -21,6 +21,38 @@ html {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/quicksand/v20/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-xw.ttf) format('truetype');
 }
+h1 {
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+p,
+li a,
+button {
+  font-size: 2.2rem;
+  font-family: 'Quicksand', sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #141414;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
 .header-container {
   width: 100%;
   padding: 4rem 0;
@@ -75,38 +107,6 @@ html {
   background: #8bbb8b;
   border: 1px solid #8bbb8b;
   color: white;
-}
-h1 {
-  font-size: 4.5rem;
-}
-h2 {
-  font-size: 3.5rem;
-}
-h3 {
-  font-size: 2.5rem;
-  font-style: italic;
-}
-p,
-li a,
-button {
-  font-size: 2.2rem;
-  font-family: 'Quicksand', sans-serif;
-}
-body {
-  min-height: 100vh;
-}
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: #141414;
-}
-h1,
-h2,
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
 }
 .main-container {
   width: 80%;
