@@ -1,5 +1,5 @@
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     ::-webkit-scrollbar {
         width: 2rem;
     }
@@ -28,7 +28,15 @@ body {
         margin: 0;
         scroll-snap-align: start;
     }
+
+    .top {
+        scroll-snap-align: start;
+    }
     
+    .snap {
+        scroll-snap-align: start;
+    }
+
     .bottom {
         text-align: center;
         .flex(column, space-evenly, center);
@@ -61,6 +69,7 @@ body {
             width: 50%;
             margin-left: 2rem;
             margin-right: 2rem;
+    
             @media @tablet-max-width {
                 width: 100%;
             }
