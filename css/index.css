@@ -59,7 +59,7 @@ p {
 .header-container {
   width: 100%;
   padding: 4rem 0;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   border-bottom: 1px solid #141414;
 }
 .header-container header {
@@ -171,7 +171,6 @@ body {
 .main-container .bottom {
   min-height: 100vh;
   margin: 0;
-  scroll-snap-align: start;
 }
 .main-container .how {
   text-align: center;
