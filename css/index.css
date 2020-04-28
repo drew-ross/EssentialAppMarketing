@@ -145,6 +145,19 @@ h3 {
   border: 1px solid #69a069;
   color: white;
 }
+html {
+  scroll-snap-type: y mandatory;
+}
+html ::-webkit-scrollbar {
+  width: 2rem;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #69a069;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #a7c8a7;
+}
 body {
   background-image: url(/img/background-plant-photo.jpg);
   background-size: cover;
@@ -152,6 +165,23 @@ body {
 .main-container {
   width: 80%;
   margin: 0 auto;
+  min-height: 100vh;
+}
+.main-container .top,
+.main-container .bottom {
+  min-height: 100vh;
+  margin: 0;
+  scroll-snap-align: start;
+}
+.main-container .bottom {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-container .how {
+  text-align: center;
 }
 .main-container h2.content-title {
   text-align: center;

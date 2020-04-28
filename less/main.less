@@ -1,3 +1,17 @@
+html {
+    scroll-snap-type: y mandatory;
+    ::-webkit-scrollbar {
+        width: 2rem;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: @color-highlight;
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: lighten(@color-highlight, 20%);
+    }
+}
+
 body {
     background-image: url(/img/background-plant-photo.jpg);
     background-size: cover;
@@ -6,7 +20,24 @@ body {
 .main-container {
     width: 80%;
     margin: 0 auto;
+    min-height: 100vh;
     
+    
+    .top, .bottom {
+        min-height: 100vh;
+        margin: 0;
+        scroll-snap-align: start;
+    }
+    
+    .bottom {
+        text-align: center;
+        .flex(column, space-evenly, center);
+    }
+    
+    .how {
+        text-align: center;
+    }
+
     h2.content-title {
         text-align: center;
         margin-bottom: 3rem;
