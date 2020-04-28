@@ -10,6 +10,16 @@
             .flex(column, space-between, center);
         }
 
+        #logo {
+            width: 5rem;
+        }
+
+        h1 {
+            color: @color-highlight;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
         nav {
             width: 50rem;
             @media @tablet-max-width {
@@ -18,7 +28,7 @@
             @media @mobile-max-width {
                 margin-top: 0;
             }
-            
+
             ul {
             .flex(row, space-evenly, center);
             

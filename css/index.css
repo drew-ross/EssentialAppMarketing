@@ -73,6 +73,14 @@ h3 {
     align-items: center;
   }
 }
+.header-container header #logo {
+  width: 5rem;
+}
+.header-container header h1 {
+  color: #69a069;
+  font-weight: bold;
+  white-space: nowrap;
+}
 .header-container header nav {
   width: 50rem;
 }
@@ -121,8 +129,8 @@ h3 {
   transition-duration: 0.1s;
 }
 .primary-button:hover {
-  background: #76ac76;
-  border: 1px solid #76ac76;
+  background: #69a069;
+  border: 1px solid #69a069;
   color: white;
 }
 .secondary-button {
@@ -133,8 +141,8 @@ h3 {
   border: 1px solid #141414;
 }
 .secondary-button:hover {
-  background: #76ac76;
-  border: 1px solid #76ac76;
+  background: #69a069;
+  border: 1px solid #69a069;
   color: white;
 }
 body {
@@ -155,7 +163,7 @@ body {
 .main-container .main-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
 }
 .main-container .main-content .content {
@@ -170,7 +178,7 @@ body {
   }
 }
 .main-container .main-content .content-container {
-  width: 45%;
+  width: 50%;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -183,9 +191,16 @@ body {
   background-image: url(/img/app-image-standin.jpg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
   border-radius: 10px;
   height: 50rem;
-  width: 50rem;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .main-container .main-content .product-image-container {
+    width: 80%;
+    background-image: url(/img/phone-app.png);
+  }
 }
 .cta {
   margin: 2rem auto;
@@ -201,20 +216,21 @@ body {
   font-size: 3rem;
 }
 .cta button:hover {
-  background: #76ac76;
-  border: 1px solid #76ac76;
+  background: #69a069;
+  border: 1px solid #69a069;
   color: white;
 }
 .cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  margin-bottom: 4rem;
 }
 .cards .team-card {
   width: 20rem;
-  margin: 1rem;
+  margin: 2rem 1.5rem;
 }
 .cards .team-card .team-photo {
   border-radius: 10px;
