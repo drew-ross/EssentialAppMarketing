@@ -148,9 +148,6 @@ p {
   border: 1px solid #69a069;
   color: white;
 }
-html {
-  scroll-snap-type: y proximity;
-}
 html ::-webkit-scrollbar {
   width: 2rem;
 }
@@ -174,12 +171,6 @@ body {
 .main-container .bottom {
   min-height: 100vh;
   margin: 0;
-  scroll-snap-align: start;
-}
-.main-container .top {
-  scroll-snap-align: start;
-}
-.main-container .snap {
   scroll-snap-align: start;
 }
 .main-container .how {
