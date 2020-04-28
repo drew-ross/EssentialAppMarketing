@@ -1,0 +1,49 @@
+.header-container {
+    width: 100%;
+    padding: 4rem 0;
+    margin-bottom: 10rem;
+    border-bottom: 1px solid @color-font;
+
+    header {
+        .flex(row, space-between, center);
+        @media @tablet-max-width {
+            .flex(column, space-between, center);
+        }
+
+        nav {
+            width: 50rem;
+            @media @tablet-max-width {
+                margin-top: 4rem;
+            }
+            @media @mobile-max-width {
+                margin-top: 0;
+            }
+            
+            ul {
+            .flex(row, space-evenly, center);
+            
+            @media @mobile-max-width {
+                .flex(column, space-evenly, center);
+                li {
+                    margin: 2rem 0;
+                    a {
+                        font-size: 4rem;
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+
+.link {
+    .link-display();
+}
+
+.primary-button {
+    .primary-button-display();
+}
+
+.secondary-button {
+    .secondary-button-display();
+}

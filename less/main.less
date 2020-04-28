@@ -1,0 +1,105 @@
+body {
+    background-image: url(/img/background-plant-photo.jpg);
+    background-size: cover;
+}
+
+.main-container {
+    width: 80%;
+    margin: 0 auto;
+    
+    h2.content-title {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .content {
+        margin-bottom: 4rem;
+    }
+
+    .main-content {
+        .flex(row, space-evenly, flex-start);
+
+        .content {
+            margin-bottom: 4rem;
+        }    
+
+        @media @tablet-max-width {
+            .flex(column, space-evenly, center);
+        }
+        .content-container {
+            width: 45%;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            @media @tablet-max-width {
+                width: 100%;
+            }
+            
+        }
+
+        .product-image-container {
+            background-image: url(/img/app-image-standin.jpg);
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            height: 50rem;
+            width: 50rem;
+            
+        }
+    }
+}
+
+.cta {
+    margin: 2rem auto;
+    text-align: center;
+
+    button {
+        .primary-button-display();
+        font-size: 3rem;
+    }
+}
+
+.cards {
+    .flex(row, space-evenly, flex-start);
+    flex-wrap: wrap;
+    .team-card {
+        width: 20rem;
+        margin: 1rem;
+        .team-photo {
+            border-radius: @button-radius;
+            background-size: cover;
+            background-position: center;
+            height: 20rem;
+            width: 100%;
+            margin-bottom: 1rem;
+            background-image: url(/img/profile-icon.png);
+        }
+
+        #tim-photo {
+            background-image: url(/img/photo-tim.png);
+        }
+
+        #rudy-photo {
+            background-image: url(/img/photo-rudy.png);
+        }
+
+        #andrew-photo {
+            background-image: url(/img/photo-andrew.png);
+        }
+
+        #david-photo {
+            background-image: url(/img/photo-david.png);
+        }
+
+        #vasuki-photo {
+            background-image: url(/img/photo-vasuki.png);
+        }
+
+        #caleb-photo {
+            background-image: url(/img/photo-caleb.png);
+        }
+
+        #drew-photo {
+            background-image: url(/img/photo-drew.png);
+        }
+    }
+}
