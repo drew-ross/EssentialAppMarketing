@@ -265,6 +265,12 @@ body {
   width: 20rem;
   margin: 2rem 1.5rem;
 }
+.cards .team-card .team-description h3 {
+  margin-bottom: -1rem;
+}
+.cards .team-card .team-description p {
+  font-size: 1.8rem;
+}
 .cards .team-card .team-photo {
   border-radius: 10px;
   background-size: cover;
