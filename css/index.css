@@ -129,7 +129,7 @@ p {
   }
 }
 .link {
-  padding: 9px;
+  padding: 1rem;
 }
 .link:hover {
   border-bottom: 1px solid #141414;
@@ -137,7 +137,7 @@ p {
 .primary-button {
   color: white;
   background: #181818;
-  padding: 9px;
+  padding: 1rem;
   border-radius: 10px;
   border: 1px solid #181818;
   transition-duration: 0.1s;
@@ -150,7 +150,7 @@ p {
 .secondary-button {
   color: #141414;
   background: none;
-  padding: 9px;
+  padding: 1rem;
   border-radius: 10px;
   border: 1px solid #141414;
 }
@@ -243,7 +243,7 @@ body {
 .cta button {
   color: white;
   background: #181818;
-  padding: 9px;
+  padding: 1rem;
   border-radius: 10px;
   border: 1px solid #181818;
   transition-duration: 0.1s;
