@@ -221,6 +221,7 @@ body {
   }
 }
 .main-container .main-content .product-image-container {
+  box-shadow: 0 0 10px #7a7a7a;
   background-image: url(/img/app-image-standin.jpg);
   background-size: cover;
   background-position: center;
@@ -253,6 +254,9 @@ body {
   border: 1px solid #69a069;
   color: white;
 }
+.cta button a {
+  color: white;
+}
 .cards {
   display: flex;
   flex-direction: row;
@@ -272,6 +276,7 @@ body {
   font-size: 1.8rem;
 }
 .cards .team-card .team-photo {
+  box-shadow: 0 0 10px #7a7a7a;
   border-radius: 10px;
   background-size: cover;
   background-position: center;
@@ -309,6 +314,7 @@ body {
   align-items: center;
 }
 .bottom .step {
+  box-shadow: 0 0 10px #7a7a7a;
   width: 500px;
   background: white;
   border-radius: 10px;
