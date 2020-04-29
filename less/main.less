@@ -68,6 +68,7 @@ body {
         }
 
         .product-image-container {
+            .shadow();
             background-image: url(/img/app-image-standin.jpg);
             background-size: cover;
             background-position: center;
@@ -90,6 +91,10 @@ body {
     button {
         .primary-button-display();
         font-size: 3rem;
+
+        a {
+            color: white;
+        }
     }
 }
 
@@ -113,7 +118,9 @@ body {
                 font-size: 1.8rem;
             }
         }
+
         .team-photo {
+            .shadow();
             border-radius: @button-radius;
             background-size: cover;
             background-position: center;
@@ -158,6 +165,7 @@ body {
     .flex(column, space-evenly, center);
 
     .step {
+        .shadow();
         width: 500px;
         background: white;
         border-radius: 10px;
