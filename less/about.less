@@ -1,0 +1,77 @@
+.cards {
+    .flex(row, center, flex-start);
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+    
+    .team-card {
+        .shadow();
+        height: 38rem;
+        width: 28rem;
+        margin: 2rem 1.5rem;
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        
+        .team-description  {
+            .flex(column, space-between, flex-start);
+            height: 10rem;
+            
+            h3 {
+                margin-bottom: -2rem;
+            }
+            
+            p {
+                border-top: 1px solid @color-font;
+                width: 100%;
+                font-size: 1.7rem;
+            }
+        }
+
+        a {
+            margin-left: 1rem;
+            
+            .github {
+                height: 3rem;
+                align-self: center;
+            }    
+        }
+        
+        .team-photo {
+            border-radius: @button-radius;
+            background-size: cover;
+            background-position: center;
+            height: 20rem;
+            width: 100%;
+            margin-bottom: 1rem;
+            background-image: url(/img/profile-icon.png);
+        }
+
+        #tim-photo {
+            background-image: url(/img/photo-tim.png);
+        }
+
+        #rudy-photo {
+            background-image: url(/img/photo-rudy.png);
+        }
+
+        #andrew-photo {
+            background-image: url(/img/photo-andrew.png);
+        }
+
+        #david-photo {
+            background-image: url(/img/photo-david.png);
+        }
+
+        #vasuki-photo {
+            background-image: url(/img/photo-vasuki.png);
+        }
+
+        #caleb-photo {
+            background-image: url(/img/photo-caleb.png);
+        }
+
+        #drew-photo {
+            background-image: url(/img/photo-drew.png);
+        }
+    }
+}
