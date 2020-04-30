@@ -262,55 +262,6 @@ body {
 .cta button a {
   color: white;
 }
-.cards {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 4rem;
-}
-.cards .team-card {
-  width: 20rem;
-  margin: 2rem 1.5rem;
-}
-.cards .team-card .team-description h3 {
-  margin-bottom: -1rem;
-}
-.cards .team-card .team-description p {
-  font-size: 1.8rem;
-}
-.cards .team-card .team-photo {
-  box-shadow: 0 0 10px #7a7a7a;
-  border-radius: 10px;
-  background-size: cover;
-  background-position: center;
-  height: 20rem;
-  width: 100%;
-  margin-bottom: 1rem;
-  background-image: url(/img/profile-icon.png);
-}
-.cards .team-card #tim-photo {
-  background-image: url(/img/photo-tim.png);
-}
-.cards .team-card #rudy-photo {
-  background-image: url(/img/photo-rudy.png);
-}
-.cards .team-card #andrew-photo {
-  background-image: url(/img/photo-andrew.png);
-}
-.cards .team-card #david-photo {
-  background-image: url(/img/photo-david.png);
-}
-.cards .team-card #vasuki-photo {
-  background-image: url(/img/photo-vasuki.png);
-}
-.cards .team-card #caleb-photo {
-  background-image: url(/img/photo-caleb.png);
-}
-.cards .team-card #drew-photo {
-  background-image: url(/img/photo-drew.png);
-}
 .bottom {
   text-align: center;
   display: flex;
@@ -340,4 +291,73 @@ body {
 }
 .bottom .step .circle h2 {
   padding-bottom: -1rem;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 4rem;
+}
+.cards .team-card {
+  box-shadow: 0 0 10px #7a7a7a;
+  height: 38rem;
+  width: 28rem;
+  margin: 2rem 1.5rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.cards .team-card .team-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 10rem;
+}
+.cards .team-card .team-description h3 {
+  margin-bottom: -2rem;
+}
+.cards .team-card .team-description p {
+  border-top: 1px solid #141414;
+  width: 100%;
+  font-size: 1.7rem;
+}
+.cards .team-card a {
+  margin-left: 1rem;
+}
+.cards .team-card a .github {
+  height: 3rem;
+  align-self: center;
+}
+.cards .team-card .team-photo {
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-image: url(/img/profile-icon.png);
+}
+.cards .team-card #tim-photo {
+  background-image: url(/img/photo-tim.png);
+}
+.cards .team-card #rudy-photo {
+  background-image: url(/img/photo-rudy.png);
+}
+.cards .team-card #andrew-photo {
+  background-image: url(/img/photo-andrew.png);
+}
+.cards .team-card #david-photo {
+  background-image: url(/img/photo-david.png);
+}
+.cards .team-card #vasuki-photo {
+  background-image: url(/img/photo-vasuki.png);
+}
+.cards .team-card #caleb-photo {
+  background-image: url(/img/photo-caleb.png);
+}
+.cards .team-card #drew-photo {
+  background-image: url(/img/photo-drew.png);
 }
