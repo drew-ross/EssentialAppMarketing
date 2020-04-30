@@ -302,7 +302,7 @@ body {
 }
 .cards .team-card {
   box-shadow: 0 0 10px #7a7a7a;
-  height: 38rem;
+  height: 40rem;
   width: 28rem;
   margin: 2rem 1.5rem;
   background: white;
@@ -335,7 +335,7 @@ body {
   border-radius: 10px;
   background-size: cover;
   background-position: center;
-  height: 20rem;
+  height: 24rem;
   width: 100%;
   margin-bottom: 1rem;
   background-image: url(/img/profile-icon.png);
