@@ -75,7 +75,11 @@ body {
             overflow: hidden;
             border-radius: 10px;
             height: 50rem;
-            width: 100%;
+            width: 50%;
+
+            @media @tablet-max-width {
+                width: 100%;
+            }
 
             @media @mobile-max-width {
                 width: 80%;

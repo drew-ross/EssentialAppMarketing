@@ -228,7 +228,12 @@ body {
   overflow: hidden;
   border-radius: 10px;
   height: 50rem;
-  width: 100%;
+  width: 50%;
+}
+@media (max-width: 1000px) {
+  .main-container .main-content .product-image-container {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .main-container .main-content .product-image-container {
