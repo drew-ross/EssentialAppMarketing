@@ -222,7 +222,7 @@ body {
 }
 .main-container .main-content .product-image-container {
   box-shadow: 0 0 10px #7a7a7a;
-  background-image: url(/img/app-image-standin.jpg);
+  background-image: url(/img/app-image-standin.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
