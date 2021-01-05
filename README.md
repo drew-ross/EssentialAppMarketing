@@ -1,8 +1,10 @@
 # About
 
-https://essentialapp.netlify.app/
+Marketing page: https://essentialapp.netlify.app
 
-This site was created by Drew Ross as a week-long team project at Lambda School. The following is a tidied version of the original document put together by our team which details the project:
+About the team: https://essentialapp.netlify.app/about.html
+
+This site was created by Drew Ross as a week-long team project at Lambda School. The site (marketing page) is hosted for demo purposes, but the original app is no longer available. The following is a tidied version of the original document put together by our team which details the project:
 
 # Proposal
 
